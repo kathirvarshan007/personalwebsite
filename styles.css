@@ -1,0 +1,156 @@
+.text-h1{
+  font-family: 'Lora', serif;
+  color: rgb(204, 51, 255);
+}
+
+.text-h3 {
+  color: #3366ff;
+}
+
+h1:hover,h3:hover {
+  color: red;
+}
+
+p {
+  font-family: 'Patua One', cursive;
+}
+
+.table-items {
+  font-family: 'Pattaya', sans-serif;
+}
+
+/* Navigation Bar */
+
+.collapse {
+  padding: 4% 25% 4% 30%;
+  background-color: #f0f8ff;
+  font-size: 1.3rem;
+  color:	#2f4f4f;
+}
+
+@media (max-width: 992px) {
+  .collapse {
+    padding: 0%;
+    font-size: 1rem;
+  }
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+/* About */
+
+#about {
+  padding: 5% 0%;
+  background: #faebd7;
+}
+
+.about-image {
+  border-radius: 100%;
+}
+
+.paragraph-about-image {
+  text-align: right;
+  padding: 4% 0%;
+}
+
+.paragraph-about-text {
+  text-align: left;
+  padding: 4% 0%;
+}
+
+@media (max-width: 992px) {
+  .about-mobile-view {
+    text-align: center;
+  }
+}
+
+/* Education */
+
+#education {
+  padding: 5% 0%;
+  background: #4dffb8;
+}
+
+table {
+  padding-top: 5%;
+  text-align: center;
+}
+
+@media (max-width:992px) {
+  table {
+    height: 400px;
+    width: 992px;
+  }
+}
+
+/* Skills */
+
+#skills {
+  padding: 5% 0%;
+  background: #faebd7;
+}
+
+.skills-title {
+  margin-left: 15%;
+  display: inline;
+}
+
+@media (max-width: 992px) {
+  .skills-title {
+    margin-left: 20px;
+  }
+  table {
+    margin-left: 10%;
+    height: 150px;
+    width: 700px;
+  }
+}
+
+table {
+  text-align: left;
+}
+
+/* Achievements */
+
+#achievements {
+  padding: 5% 0%;
+  background: #4dffb8;
+}
+
+.achievements-title {
+  margin-left: 15%;
+  display: inline;
+}
+
+@media (max-width: 992px) {
+  .achievements-title {
+    margin-left: 20px;
+  }
+}
+
+.achievements-link, .achievements-image {
+  display: block;
+  margin: 20px 0px;
+}
+
+/* Contact */
+
+#contact-me {
+  padding: 5% 0%;
+  background: green;
+}
+
+#contact-me p {
+  margin: 25px 0px;
+}
+
+.fab {
+  color: #000;
+  margin: 0px 5px;
+}
+
+.fab:hover {
+  color: #fff;
+}
