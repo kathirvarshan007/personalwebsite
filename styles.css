@@ -84,13 +84,6 @@ p {
   height: 300px;
 }
 
-@media (max-width:992px) {
-  table {
-    text-align: left;
-    height: 1000px;
-    width: 100%;
-  }
-}
 
 /* Skills */
 
