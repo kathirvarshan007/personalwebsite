@@ -100,7 +100,6 @@ p {
 @media (max-width: 800px) {
   .skills-title {
     margin-left: 0px;
-    text-align:left;
   }
   table {
     text-align: left;
