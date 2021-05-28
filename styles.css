@@ -88,7 +88,7 @@ p {
   table {
     text-align: left;
     height: 1000px;
-    width: 30%;
+    width: 100%;
   }
 }
 
@@ -111,7 +111,7 @@ p {
   }
   table {
     text-align: left;
-    height: 350px;
+    height: 200px;
     width: 100%;
   }
 }
