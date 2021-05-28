@@ -97,7 +97,7 @@ p {
   display: inline;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 992px) {
   .skills-title {
     margin-left: 0px;
   }
