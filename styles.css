@@ -21,9 +21,13 @@ p {
 
 /* Navigation Bar */
 
+#navigation-bar {
+  margin: 10%;
+  background-color: #f0f8ff;
+}
+
 .collapse {
   padding: 4% 25% 4% 30%;
-  background-color: #f0f8ff;
   font-size: 1.3rem;
   color:	#2f4f4f;
 }
@@ -42,7 +46,7 @@ p {
 /* About */
 
 #about {
-  padding: 5% 0%;
+  padding: 5%;
   background: #faebd7;
 }
 
@@ -69,26 +73,29 @@ p {
 /* Education */
 
 #education {
-  padding: 5% 0%;
+  padding: 5%;
   background: #4dffb8;
 }
 
-table {
+#education table {
   padding-top: 5%;
   text-align: center;
+  width: 90%;
+  height: 300px;
 }
 
 @media (max-width:992px) {
   table {
-    height: 400px;
-    width: 992px;
+    text-align: left;
+    height: 1000px;
+    width: 30%;
   }
 }
 
 /* Skills */
 
 #skills {
-  padding: 5% 0%;
+  padding: 5%;
   background: #faebd7;
 }
 
@@ -97,25 +104,27 @@ table {
   display: inline;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 800px) {
   .skills-title {
-    margin-left: 20px;
+    margin-left: 0px;
+    text-align:left;
   }
   table {
-    margin-left: 10%;
-    height: 150px;
-    width: 700px;
+    text-align: left;
+    height: 350px;
+    width: 100%;
   }
 }
 
 table {
   text-align: left;
+  width: 60%;
 }
 
 /* Achievements */
 
 #achievements {
-  padding: 5% 0%;
+  padding: 5%;
   background: #4dffb8;
 }
 
@@ -126,7 +135,7 @@ table {
 
 @media (max-width: 992px) {
   .achievements-title {
-    margin-left: 20px;
+    margin-left: 0px;
   }
 }
 
@@ -138,7 +147,7 @@ table {
 /* Contact */
 
 #contact-me {
-  padding: 5% 0%;
+  padding: 5%;
   background: green;
 }
 
